@@ -8,12 +8,15 @@
 			<key>DNSSettings</key>
 			<dict>
 				<key>DNSProtocol</key>
-				<string>HTTPS</string>
+				<string>TLS</string>
 				<key>ServerAddresses</key>
 				<array>
+					<string>2a06:98c1:54::1:52d3</string>
 					<string>172.64.36.1</string>
                                         <string>172.64.36.2</string>
 				</array>
+				<key>ServerName</key>
+                                <string>83melt0o2u.cloudflare-gateway.com</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>JG Configures device to use Cloudflare Encrypted DNS over HTTPS</string>
