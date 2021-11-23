@@ -31,6 +31,7 @@ Check out the article for more info: [paulmillr.com/posts/encrypted-dns/](https:
 | Quad9                     | 🇨🇭     | 🔴          | [Operated](https://www.quad9.net/news/blog/doh-with-quad9-dns-servers/) by CleanerDNS, Inc. Filters malware                             | [HTTPS](https://github.com/paulmillr/encrypted-dns/raw/master/profiles/quad9-https.mobileconfig), [TLS](https://github.com/paulmillr/encrypted-dns/raw/master/profiles/quad9-tls.mobileconfig)                                        |
 | Quad9 With ECS            | 🇨🇭     | 🔴          | [Operated](https://www.quad9.net/news/blog/doh-with-quad9-dns-servers/) by CleanerDNS, Inc. Filters malware                             | [HTTPS](https://github.com/paulmillr/encrypted-dns/raw/master/profiles/quad9-ECS-https.mobileconfig), [TLS](https://github.com/paulmillr/encrypted-dns/raw/master/profiles/quad9-ECS-tls.mobileconfig)                                        |
 | Tiar.app                  | 🇸🇬 🇺🇸    | 🔴          | ["Privacy-first DNS provider"](https://doh.tiar.app) from SG, hosted on Digital Ocean. Filters malware                                  | [HTTPS](https://github.com/paulmillr/encrypted-dns/raw/master/profiles/tiarapp-https.mobileconfig), [TLS](https://github.com/paulmillr/encrypted-dns/raw/master/profiles/tiarapp-tls.mobileconfig)                                    |
+| Cloudflare JGcustom         | 🇺🇸      | 🔴          | Filters malware & adult content                                                                                                         | [HTTPS](https://github.cojgabriels/encrypted-dns/raw/master/profiles/cloudflare-jgcustom-https.mobileconfig)                                                                                                                 |
 
 ## Installation
 
@@ -54,3 +55,6 @@ We can't fix the issues, only Apple can:
 - [Some traffic e.g. Terminal / App Store is except from EDNS](https://github.com/paulmillr/encrypted-dns/issues/22)
 - [Chrome is except from EDNS](https://github.com/paulmillr/encrypted-dns/issues/19)
 - [VPN disable EDNS](https://github.com/paulmillr/encrypted-dns/issues/18)
+
+
+TEST
