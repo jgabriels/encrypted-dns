@@ -14,8 +14,6 @@
 					<string>172.64.36.1</string>
                                         <string>172.64.36.2</string>
 				</array>
-				<key>ServerURL</key>
-                                <string>https://83melt0o2u.cloudflare-gateway.com/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>JG Configures device to use Cloudflare Encrypted DNS over HTTPS</string>
@@ -34,7 +32,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds the Cloudflare DNS to Big Sur and iOS 14 based systems</string>
+	<string>JG Adds the Cloudflare DNS to Big Sur and iOS 14 based systems</string>
 	<key>PayloadDisplayName</key>
 	<string>JG Cloudflare DNS over HTTPS</string>
 	<key>PayloadIdentifier</key>
